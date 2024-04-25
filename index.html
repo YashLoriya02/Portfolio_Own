@@ -1,0 +1,580 @@
+<!-- <!DOCTYPE html> -->
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css" />
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="/assets/css/style.css" />
+
+  <title>Yash Loriya | Web Developer</title>
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@_Yash0206" />
+  <meta name="twitter:title" content="Coder | Technofreak | Developer | Humane" />
+  <meta name="twitter:description" content="Web Developer" />
+  <meta name="twitter:url" content="https://twitter.com/_Yash0206" />
+  <meta name="author" content="Yash Loriya" />
+  <meta name="description"
+    content="Full Stack Web Developer with a passion for Backend development and Artificial Intelligence." />
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/img/favicon/apple-icon-57x57.png" />
+  <link rel="apple-touch-icon" sizes="60x60" href="/assets/img/favicon/apple-icon-60x60.png" />
+  <link rel="apple-touch-icon" sizes="72x72" href="/assets/img/favicon/apple-icon-72x72.png" />
+  <link rel="apple-touch-icon" sizes="76x76" href="/assets/img/favicon/apple-icon-76x76.png" />
+  <link rel="apple-touch-icon" sizes="114x114" href="/assets/img/favicon/apple-icon-114x114.png" />
+  <link rel="apple-touch-icon" sizes="120x120" href="/assets/img/favicon/apple-icon-120x120.png" />
+  <link rel="apple-touch-icon" sizes="144x144" href="/assets/img/favicon/apple-icon-144x144.png" />
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/img/favicon/apple-icon-152x152.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicon/apple-icon-180x180.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="/assets/img/favicon/android-icon-192x192.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="96x96" href="/assets/img/favicon/favicon-96x96.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon/favicon-16x16.png" />
+  <link rel="manifest" href="/assets/img/favicon/manifest.json" />
+  <meta name="msapplication-TileColor" content="#ffffff" />
+  <meta name="msapplication-TileImage" content="/assets/img/favicon/ms-icon-144x144.png" />
+  <meta name="theme-color" content="#ffffff" />
+  <meta name="robots" content="index, follow" />
+</head>
+
+<body>
+  <!-- Navigation Menu-->
+  <nav class="hide-on-small-only">
+    <ul class="side-nav fixed section table-of-contents">
+
+      <li class="logo">
+        <a id="logo-container" aria-label="Navigate to the beginning of the page" href="#intro"
+          class="brand-logo grey-blue-text">
+          <img src="/assets/img/profile.jpg" class="circle img-responsive profile-pic" alt="avatar">
+        </a>
+      </li>
+
+      <hr>
+
+      <li style="margin-top: 15px;" class="bold">
+        <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-person small"></i><span>About</span></a>
+      </li>
+
+      <li class="bold">
+        <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark teal-text"><i
+            class="mdi-av-my-library-books small"></i><span>Projects</span></a>
+      </li>
+
+      <li class="bold">
+        <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-assessment small"></i><span>Skills</span></a>
+      </li>
+
+      <li class="bold">
+        <a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-school small"></i><span>Education</span></a>
+      </li>
+
+      <li class="bold">
+        <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark teal-text"><i
+            class="mdi-content-mail small"></i><span>Contact</span></a>
+      </li>
+
+      <li class="bold">
+        <a aria-label="Open Yash's resume in a new tab"
+          href="http://res.cloudinary.com/djacm/image/upload/v1713099922/tpkzw6wrpsegezjnu5yn.pdf" target="_blank"
+          class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a>
+      </li>
+    </ul>
+  </nav>
+
+  <nav class="hide-on-large only trigger z-depth-1">
+    <a aria-label="Toggle visibility of the mobile navbar" href="#" data-activates="slide-out"
+      class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+    <div class="name-title">
+      <a id="name" aria-label="Navigate to the beginning of the page" href="#" class="teal-text">Yash
+        Loriya</a><span class="black-text">Web Developer</span>
+    </div>
+  </nav>
+
+  <nav class="hide-on-large only">
+    <ul id="slide-out" class="side-nav">
+      <li class="bold">
+        <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-person small"></i><span>About</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Experience section" href="#experience"
+          class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-trending-up small"></i><span>Experience</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark teal-text"><i
+            class="mdi-av-my-library-books small"></i><span>Projects</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-assessment small"></i><span>Skills</span></a>
+      </li>
+
+      <li class="bold">
+        <a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-school small"></i><span>Education</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark teal-text"><i
+            class="mdi-content-mail small"></i><span>Contact</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Open Yash's Resume in a new tab"
+          href="http://res.cloudinary.com/djacm/image/upload/v1713099922/tpkzw6wrpsegezjnu5yn.pdf" target="_blank"
+          class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a>
+      </li>
+    </ul>
+  </nav>
+
+  <main>
+    <!-- Section: Heading lines and image -->
+    <section id="intro" class="section scrollspy full-height">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="col-md-9">
+          <div class="content section-padding valign" style="margin-left: 10%; margin-top: 50px;">
+            <div style="margin-top: 8rem" class="caption">
+              <h2>Hey🙋‍♂️, I'm <span class="name_intro" style="text-transform: uppercase; font-weight: 300; ">Yash
+                  Loriya.</span></h2>
+              <h5>Top Skills : <span style="color:#003554; font-weight: 400; text-shadow: none;" class="typing"></span>
+              </h5>
+              <h5>As a passionate MERN Stack Developer with a keen curiosity, I thrive on crafting captivating UIs and
+                building resilient backends. I'm driven by the challenge of solving complex, real-world problems and
+                currently I'm expanding my skill set through learning AIML and Data Science.</h5>
+            </div>
+            <div style="margin-top: 20px;" class="social">
+              <a href="https://www.linkedin.com/in/yash-loriya-9b9547299/" target="_blank">
+                <button class="icon-btn linkedin">
+                  <i style="text-shadow: none;" class="fa fa-linkedin"></i>
+                </button>
+              </a>
+              <a href="https://github.com/YashLoriya02/" target="_blank">
+                <button class="icon-btn github">
+                  <i style="text-shadow: none;" class="fa fa-github"></i>
+                </button>
+              </a>
+              <a href="https://twitter.com/_Yash0206" target="_blank">
+                <button class="icon-btn twitter">
+                  <i style="text-shadow: none;" class="fa fa-twitter"></i>
+                </button>
+              </a>
+            </div>
+            <div style="margin-top: 10px;" class='buttons'>
+              <a href="#about" class="contactme" style="margin-right: 20px;">Read More</a>
+              <a href="#contact" class="contactme">Contact Me</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section: About -->
+    <section id="about" class="section scrollspy">
+      <h3 class="page-title white-text teal">About</h3>
+      <div class="container flow-text">
+        <p>
+          I am Computer Science Student at Dwarkadas.J.Sanghvi College of Engineering pursuing B.Tech in AI&ML. I enjoy
+          Problem-solving and Coding. Always
+          Curious to learn new things and to work.
+          I am working on Technologies like ReactJS, NodeJS, ExpressJS, Mongo, NextJS, HTML, CSS, Python, Django, Java
+          etc.
+          I'm deeply driven by the challenge of crafting sophisticated applications that address pressing real-world
+          issues, positively impacting the lives of countless users
+        </p>
+        <p>
+        <ul>
+          <li><b>Languages:</b> Python, JavaScript, Java, C, C++, HTML/CSS</li>
+          <li><b>Databases:</b> MySQL, MongoDB</li>
+          <li><b>Libraries:</b> NumPy, Pandas, Scikit-learn</li>
+          <li><b>Frameworks:</b> React.js, Django, Node.js, Express.js, Tailwind, Bootstrap</li>
+          <li><b>Tools & Technologies:</b> Git, Github, Netlify, Hostinger, Figma</li>
+        </ul>
+        <p>
+          I'm actively seeking a challenging role that integrates my expertise in Software Engineering, offering
+          opportunities for professional advancement, stimulating experiences, and personal development.
+        </p>
+      </div>
+    </section>
+
+    <!-- Section: Projects -->
+    <section id="projects" class="section scrollspy">
+      <h3 class="page-title white-text teal">Projects</h3>
+      <div class="container">
+        <div class="row">
+
+          <div class="col s12 m6 l4">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="music streaming app" src="/assets/img/ishop.webp" style="height: 100%; width: 100%"
+                  class="activator" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">iShop<i
+                    class="mdi-navigation-more-vert right"></i></span>
+                <p>
+                  Product Comparison Website, here price of given filtered product are displayed of different e-commerce
+                  websites.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12 m6 l4">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="quiz app" src="/assets/img/project-quizup-logo-1.png" style="height: 100%; width: 100%"
+                  class="activator" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">Quiz Web-App<i
+                    class="mdi-navigation-more-vert right"></i></span>
+                <p>
+                  A Coding Quiz Playing Web app based on NodeJS and SQL.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12 m6 l4">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="Screenshot of web app" src="/assets/img/food-truck.jpg" style="height: 120%; width: 100%"
+                  class="activator" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">Quirkify<i
+                    class="mdi-navigation-more-vert right"></i></span>
+                <p>
+                  Food Truck's Website where user can order food with Mind blowing and Animated Menu and also has Mood
+                  Based Filtering.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12 m6 l4">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="Screenshot of  web app" src="/assets/img/laptop.jpg" style="height: 100%; width: 100%"
+                  class="activator" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">Laptop Price Predictor<i
+                    class="mdi-navigation-more-vert right"></i></span>
+                <p>
+                  Based on User Input (Specifications of Laptop), it predicts price of laptop and suggests the laptops
+                  with similar specs.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12 m6 l4">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="Screenshot of  web app" src="/assets/img/document.png" style="height: 100%; width: 100%"
+                  class="activator" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">iDocument-Manager<i
+                    class="mdi-navigation-more-vert right"></i></span>
+                <p>
+                  A Platform where all types of document can be saved and viewed easily. User can Upload, Delete and
+                  Annotate on documents.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12 m6 l4">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="Screenshot of  web app" src="/assets/img/job-apply.jpg" style="height: 100%; width: 100%"
+                  class="activator" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">Custom Job Apply Application<i
+                    class="mdi-navigation-more-vert right"></i></span>
+                <p>
+                  Job Apply Application where users can apply to job and companies can get all data of applied users.
+                  (With Admin-Dashboard)
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section: Skills -->
+    <section id="skills" class="section scrollspy">
+      <h3 class="page-title white-text teal">Skills</h3>
+      <div class="container">
+        <div class="card">
+          <div class="card-content">
+            <h4 class="brown-text light">Languages and Databases</h4>
+            <div class="row text-center alldblang">
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/python-logo-1-300x300.jpg" class="responsive-img" /><span
+                  class="langs">Python</span>
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/html5-300x300.jpg" class="responsive-img" /><span
+                  class="langs">HTML5</span>
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/css3-300x300.jpg" class="responsive-img" /><span class="langs">CSS3</span>
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/javascript.png" class="responsive-img" /><span
+                  class="langs">Javascript</span>
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/c.png" class="responsive-img" /><span class="langs">C</span>
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/c++.png" class="responsive-img" /><span class="langs">C++</span>
+              </div>
+              <div class="col s4 m2 extra">
+                <img alt="" src="/assets/img/java.png" class="responsive-img" /><span class="langs">Java</span>
+              </div>
+              <div class="col s4 m2 extra">
+                <img alt="" src="/assets/img/mongodb.svg" class="responsive-img" /><span class="langs">MongoDB</span>
+              </div>
+              <div class="col s4 m2 extra">
+                <img alt="" src="/assets/img/mysql-logo-1-300x300.jpg" class="responsive-img" /><span
+                  class="langs">MySQL</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-content">
+            <h4 class="brown-text light">Libraries</h4>
+            <div class="row text-center">
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/numpy-logo-1-500x500.jpg" class="responsive-img" />NumPy
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/pandas-logo-2-500x500.jpg" class="responsive-img" />Pandas
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/sk-learn-logo-1-500x500.jpg" class="responsive-img" />Scikit-learn
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/matplotlib-logo-1-500x500.jpg" class="responsive-img" />Matplotlib
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-content">
+            <h4 class="brown-text light">Frameworks</h4>
+            <div class="row text-center all_frameworks">
+              <div class="col s4 m2">
+                <img alt="React JS" src="/assets/img/react.png" class="responsive-img" /><span>React JS</span>
+              </div>
+              <div class="col s4 m2">
+                <img alt="Node JS" src="/assets/img/nodejs.png" class="responsive-img" /><span>Node JS</span>
+              </div>
+              <div class="col s4 m2">
+                <img alt="Django" src="/assets/img/django-logo.webp" class="responsive-img" /><span>Django</span>
+              </div>
+              <div class="col s4 m2">
+                <img alt="Flask" src="/assets/img/flask-logo.png" class="responsive-img" /><span>Flask</span>
+              </div>
+              <div class="col s4 m2">
+                <img alt="Tailwind" src="/assets/img/tailwind.svg" class="responsive-img" /><span>Tailwind</span>
+              </div>
+              <div class="col s4 m2">
+                <img alt="Bootstrap" src="/assets/img/bootstrap.png" class="responsive-img" /> <span>Bootstrap</span>
+              </div>
+              <div class="col s4 m2 extra">
+                <img alt="Next JS" src="/assets/img/nextjs.png" class="responsive-img" /><span>Next JS</span>
+              </div>
+              <div class="col s4 m2 extra mat">
+                <img alt="MUI" src="/assets/img/MUI.png" class="responsive-img" /><span>Material UI</span>
+              </div>
+              <div class="col s4 m2 extra">
+                <img alt="React Router Dom" src="/assets/img/reactrouterdom.png" class="responsive-img" /><span>React
+                  Router Dom</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-content">
+            <h4 class="brown-text light">Other</h4>
+            <div class="row text-center alldblang">
+
+
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/git.png" class="responsive-img" /><div class="langs">Git</div>
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/scraping.png" class="responsive-img" /><div class="langs langs2">Web Scraping</div>
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/hostinger.png" class="responsive-img" /><div class="langs">Hostinger</div>
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/figma.png" class="responsive-img" /><div class="langs">Figma</div>
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/photoshop.png" class="responsive-img" /><div class="langs">Photoshop</div>
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/jupyter.png" class="responsive-img" /><div class="langs">Jupyter Notebook</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section: Education -->
+    <section id="education" class="section scrollspy">
+      <h3 class="page-title white-text teal">Education</h3>
+      <div class="container">
+        <div class="row">
+          <div class="col s12 m6 l6">
+            <div class="card">
+              <div class="card-content">
+                <p>
+                  <span class="card-title"><a href="https://www.asu.edu/" target="_blank"
+                      class="teal-text hoverline">Dwarkadas.J.Sanghvi College of Engineering</a></span>
+                </p>
+                <p class="brown-text">Mumbai, India</p>
+                <p>
+                  <b>Degree: </b>B.Tech in AI&ML
+                </p>
+                <ul>
+                  <p>
+                    <b>Relevant Courseworks:</b>
+                  <ul>
+                    <li>Artificial Intelligence</li>
+                    <li>Machine Learning</li>
+                    <li>Data Structures and Design/Analysis of Algorithms</li>
+                    <li>Database Management System & Operating System</li>
+                    <li>Data Mining and Analytics</li>
+                    <li>DevOps</li>
+                    <li>Natural Language Processing</li>
+                  </ul>
+                  </p>
+
+                </ul>
+              </div>
+            </div>
+
+
+          </div>
+          <div class="col s12 m6 l6">
+            <div class="card">
+              <div class="card-content">
+                <p>
+                  <span class="card-title"><a
+                      href="https://ahduni.edu.in/academics/schools-centres/school-of-engineering-and-applied-science/"
+                      target="_blank" class="teal-text hoverline">Sardar Vallabhbhai Patel Vidyalaya
+                    </a></span>
+                </p>
+                <p class="brown-text">Mumbai, India</p>
+                <p>
+                  <b>Degree: </b>School and Junior College
+                  <br>
+                  <b>CGPA: </b>8.89
+                </p>
+
+                <ul>
+                  <p>
+                    <b>Relevant Courseworks:</b>
+                  <ul>
+                    <li>Maths</li>
+                    <li>Physics</li>
+                    <li>Chemistry</li>
+                    <li>English</li>
+                    <li>Computer Science</li>
+                  </ul>
+                  </p>
+
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section: Contact -->
+    <section id="contact" class="section scrollspy full-height">
+      <h3 class="page-title white-text teal">Contact</h3>
+      <div class="container">
+        <p>
+          <a aria-label="Call Yash" data-position="top" data-tooltip="Call Yash"
+            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i class="fa fa-phone"></i><a
+              aria-label="Call Yash">+91 8879029981</a></a>
+        </p>
+        <p>
+          <a aria-label="Email Yash" href="mailto:yashloriya0206@gmail.com" target="_blank" data-position="top"
+            data-tooltip="Email Yash" class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+              class="fa fa-envelope"></i><a aria-label="Email Yash" href="mailto:yashloriya0206@gmail.com"
+              class="hoverline">yashloriya0206@gmail.com</a></a>
+        </p>
+        <p>
+          <a aria-label="View Yash on GitHub" href="http://github.com/YashLoriya02" target="_blank" data-position="top"
+            data-tooltip="View Yash on GitHub"
+            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i class="fa fa-github"></i><a
+              aria-label="Yash on Github" href="http://github.com/YashLoriya02" class="hoverline"
+              target="_blank">github.com/YashLoriya02</a></a>
+        </p>
+        <p>
+          <a aria-label="View Yash on LinkedIn" href="https://www.linkedin.com/in/yash-loriya-9b9547299/"
+            target="_blank" data-position="top" data-tooltip="View Yash on LinkedIn"
+            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+              class="fa fa-linkedin"></i><a aria-label="Yash on LinkedIn"
+              href="https://www.linkedin.com/in/yash-loriya-9b9547299/" class="hoverline"
+              target="_blank">linkedin.com/in/yash-loriya-9b9547299</a></a>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script type="text/javascript">
+    var typed = new Typed('.typing', {
+      strings: ["React JS", "Node JS", "Express JS", "Mongo DB", "Django", "Javascript", "Python"],
+      loop: true,
+      typeSpeed: 100,
+      backSpeed: 70
+    });
+  </script>
+
+
+  <!-- jQuery-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+  <!-- Materialize - Compiled and minified JavaScript-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js"></script>
+  <script>
+    // Materialize - Initializers
+    $(document).ready(function () {
+      $(".scrollspy").scrollSpy()
+      // Initialize collapse button
+      $(".button-collapse").sideNav({
+        menuWidth: 190, // Default is 240
+        edge: "left", // Choose the horizontal origin
+        closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
+      })
+    })
+  </script>
+</body>
+
+</html>
